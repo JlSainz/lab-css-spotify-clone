@@ -6,3 +6,222 @@ Green: #00B172
 White: #FFF
 
 */
+
+html, body {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background: #FFF;
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2);
+}
+
+#nav-bar ul {
+  display: flex;
+}
+
+#nav-bar li {
+  margin: 20px;
+  /* display: flex;
+  justify-content: space-evenly; */
+}
+
+#nav-bar img {
+  width: 10%;
+  margin-left: 20px;
+}
+
+#main {
+  background-image: url("./../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  color: #FFF;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-text h1 {
+  font-size: 90px;
+  font-weight: 100;
+  letter-spacing: 4px;
+  margin-bottom: 80px;
+}
+
+.main-text p {
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+#logos {
+  margin-top: 30px;
+  width: 100vw;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#logos1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#logos h1 {
+  border-bottom: 4px solid #00B172;
+  line-height: 70px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.logos2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#logos img {
+  width: 30%;
+}
+
+.music {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.music h2 {
+  color: #00B172;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 30px;
+}
+
+.music p {
+  font-size: 20px;
+  line-height: 33px;
+}
+
+.high {
+  margin-top: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.high h2 {
+  color: #00B172;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 30px;
+}
+
+.high p {
+  font-size: 20px;
+  line-height: 33px;
+}
+
+.devices {
+  margin-top: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.devices h2 {
+  color: #00B172;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 30px;
+}
+
+.devices p {
+  font-size: 20px;
+  line-height: 33px;
+}
+
+#bottom {
+  width: 95vw;
+  height: 85vh;
+  background: #00B172;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 42.5px;
+}
+
+.spot-logo {
+  position: absolute;
+  width: 8%;
+}
+
+.app {
+  width: 20%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.text h1 {
+  font-size: 40px;
+  border-bottom: 4px solid white;
+  line-height: 70px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.text h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.text p {
+  font-size: 20px;
+  line-height: 35px;
+}
+
+footer {
+  width: 100%;
+  height: 20px;
+}
